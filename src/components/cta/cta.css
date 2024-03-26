@@ -1,0 +1,108 @@
+.gpt3__cta-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10.724px;
+    border: 1px solid #000;
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+
+.gpt3__cta-container_texts {
+    flex: 1;
+    margin-right: 1rem;
+    max-width: 700px;
+}
+
+
+.gpt3__cta-container_texts h1 {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.gpt3__cta-container_texts p {
+    color: #0E0E0E;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 250% */
+}
+
+
+
+.gpt3__cta-container_button button {
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    background: #000;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    /* 166.667% */
+}
+
+
+@media screen and (max-width : 1110PX) {
+    .gpt3__cta-container_texts h1 {
+        font-size: 22px;
+    }
+
+
+    .gpt3__cta-container_button button {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width : 900PX) {
+    .gpt3__cta-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gpt3__cta-container_button {
+        margin-top: 1rem;
+    }
+
+    .gpt3__cta-container_button button {
+        padding: 0.5rem 1.5rem;
+        font-size: 14px;
+        font-weight: 600;
+
+        /* 166.667% */
+    }
+}
+
+
+@media screen and (max-width : 900PX) {
+    .gpt3__cta-container_texts h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .gpt3__cta-container_button button {
+        font-size: 16px;
+    }
+
+    .gpt3__cta-container_button button {
+        padding: 0.3rem 1.3rem;
+        font-size: 14px;
+        font-weight: 500;
+
+        /* 166.667% */
+    }
+}

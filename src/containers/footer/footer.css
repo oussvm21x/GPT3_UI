@@ -1,0 +1,161 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #031B34;
+
+}
+
+.gpt3__footer ul {
+    list-style: none;
+}
+
+.gpt3__footer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.gpt3__footer-header h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    /* 120.968% */
+    letter-spacing: -2.48px;
+    max-width: 900px;
+}
+
+.gpt3__footer-header p {
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 220px;
+    padding: 1rem;
+    align-self: center;
+    margin: 6rem 0;
+    cursor: pointer;
+
+}
+
+
+.gpt3__footer-content {
+    display: flex;
+    color: #FFF;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.gpt3__footer-content_logo {
+    margin-left: 1rem;
+}
+
+.gpt3__footer-content_logo img {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.gpt3__footer-content_logo p {
+    max-width: 200px;
+}
+
+.gpt3__footer-content div {
+    margin: 0 2.5rem;
+    padding: 1rem;
+}
+
+.gpt3__footer-content div p {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-content div li {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width : 900px) {
+    .gpt3__footer-content div {
+        margin: 0 2rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .gpt3__footer-header h1 {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+
+    .gpt3__footer-content div {
+        margin: 0 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .gpt3__footer {
+
+        align-items: flex-start;
+
+    }
+
+    .gpt3__footer-header h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .gpt3__footer-header p {
+        font-size: 14px;
+        margin: 4rem 0;
+
+    }
+
+
+
+    .gpt3__footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .gpt3__footer-content div {
+        margin: 0;
+
+    }
+
+    .gpt3__footer-content_logo img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .gpt3__footer-content div ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gpt3__footer-content div ul li {
+        margin: 1rem 1rem 0.5rem 0;
+    }
+}
